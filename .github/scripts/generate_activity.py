@@ -52,7 +52,8 @@ def main():
             continue
         if commits:
             count = len(commits)
-            activity_lines.append(f'- [{name}]({html}) — {count} commit{'+'s' if count!=1 else ''} in last 30 days')
+            plural = 's' if count != 1 else ''
+            activity_lines.append(f'- [{name}]({html}) — {count} commit{plural} in last 30 days')
 
     if not activity_lines:
         body = 'No repositories with commits in the last 30 days.'
