@@ -77,7 +77,12 @@ def main():
     if not cards:
         body = '<p>No repositories with commits in the last 30 days.</p>'
     else:
-        body = '<div style="display:flex;flex-wrap:wrap;gap:12px">' + '\n'.join(cards) + '</div>'
+        # Use CSS grid to force two cards per row on wide layouts
+        grid = (
+            '<div style="display:grid;grid-template-columns:repeat(2, minmax(0,1fr));gap:12px;align-items:start">'
+            + '\n'.join(cards) + '</div>'
+        )
+        body = grid
 
     readme = 'README.md'
     start = '<!-- ACTIVITY:START -->'
