@@ -39,6 +39,12 @@
 	<img alt="puck02's top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=puck02&layout=compact&theme=dark&langs_count=10" />
 </p>
 
+<!-- ACTIVITY:START -->
+
+Generating activity...
+
+<!-- ACTIVITY:END -->
+
 ---
 
 Credit: [puck02](https://github.com/puck02)
