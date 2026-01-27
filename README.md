@@ -3,9 +3,9 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=puck02&label=Profile%20views&color=0e75b6&style=flat" alt="puck02" /> </p>
 
-<p align="center">
-	<img alt="GIF" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="320" height="240" />
-</p>
+<a target="_blank" align="center">
+	<img align="right" top="500" height="300" width="400" alt="GIF" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif">
+</a>
 
 - 🔭 I’m currently learning AI agents.
 
@@ -18,7 +18,7 @@
 
 <div style="clear: both;"></div>
 <!-- Technologies -->
-<h2 align="center" style="clear:both; margin-top:24px">Technologies That I Know</h2>
+<h2 align="center" style="clear:both; margin-top:160px">Technologies That I Know</h2>
 
 <p align="center">
   <a href="https://skillicons.dev">
