@@ -18,7 +18,7 @@
 
 <div style="clear: both;"></div>
 <!-- Technologies -->
-<h2 align="center" style="clear:both; margin-top:160px">Technologies That I Know</h2>
+<h2 align="center" style="clear:both; margin-top:180px">Technologies That I Know</h2>
 
 <p align="center">
   <a href="https://skillicons.dev">
