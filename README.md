@@ -3,9 +3,9 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=puck02&label=Profile%20views&color=0e75b6&style=flat" alt="puck02" /> </p>
 
-<a target="_blank" align="center">
-	<img align="right" top="500" height="300" width="400" alt="GIF" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif">
-</a>
+<p align="center">
+	<img alt="GIF" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="320" height="240" />
+</p>
 
 - 🔭 I’m currently learning AI agents.
 
