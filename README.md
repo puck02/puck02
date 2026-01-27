@@ -7,18 +7,23 @@
 	<img align="right" top="500" height="300" width="400" alt="GIF" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif">
 </a>
 
-- 🔭 I’m currently learning AI agents.
+- 🔭 I’m currently learning AI agents:
+    - https://github.com/puck02/ai-agents-for-beginners
+    - https://github.com/puck02/hello-agents
+
+- 📝 Working on some useful tools(vibe coding):
+    - https://github.com/puck02/HEl
+    - https://github.com/puck02/Pawprints
 
 - 🤝 Open to collaboration and small contributions.
 
-- 📝 Projects and notes on GitHub: https://github.com/puck02
-
 - 📫 How to reach me: **ponepuck@qq.com**
+
 <br/>
 
 <div style="clear: both;"></div>
 <!-- Technologies -->
-<h2 align="center" style="clear:both; margin-top:222px">Technologies That I Know</h2>
+<h2 align="center" style="clear:both; margin-top:140px">Technologies That I Know</h2>
 
 <p align="center">
   <a href="https://skillicons.dev">
