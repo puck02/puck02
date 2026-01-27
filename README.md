@@ -41,6 +41,10 @@
 
 <!-- ACTIVITY:START -->
 
+## Activity
+
+<!-- ACTIVITY:START -->
+
 Generating activity...
 
 <!-- ACTIVITY:END -->

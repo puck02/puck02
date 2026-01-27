@@ -33,6 +33,8 @@ jobs:
         run: python .github/scripts/generate_activity.py
 
       - name: Commit changes
+        env:
+          BRANCH: ${{ github.ref_name }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -41,5 +43,9 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "chore: update activity (automated)"
-            git push
+            # fetch remote branch and rebase to minimize conflicts
+            git fetch origin "$BRANCH"
+            git pull --rebase origin "$BRANCH" || echo "rebase failed or no remote changes"
+            # push with force-with-lease to avoid overwriting concurrent changes
+            git push origin HEAD:"$BRANCH" --force-with-lease
           fi

@@ -40,25 +40,44 @@ def repo_has_commits(full_name, since):
 
 def main():
     repos = list_repos(OWNER)
-    activity_lines = []
+    cards = []
     for repo in repos:
         full = repo.get('full_name')
         name = repo.get('name')
         html = repo.get('html_url')
+        desc = repo.get('description') or ''
+        stars = repo.get('stargazers_count', 0)
         try:
             commits = repo_has_commits(full, SINCE)
         except requests.HTTPError as e:
             print(f'Failed to fetch commits for {full}: {e}', file=sys.stderr)
             continue
-        if commits:
-            count = len(commits)
-            plural = 's' if count != 1 else ''
-            activity_lines.append(f'- [{name}]({html}) — {count} commit{plural} in last 30 days')
+        if not commits:
+            continue
+        # take most recent commit date
+        try:
+            recent = commits[0]
+            date_str = recent.get('commit', {}).get('author', {}).get('date')
+            if date_str:
+                last = date_str.split('T')[0]
+            else:
+                last = ''
+        except Exception:
+            last = ''
 
-    if not activity_lines:
-        body = 'No repositories with commits in the last 30 days.'
+        card = f'''
+<div style="border:1px solid #e1e4e8;border-radius:8px;padding:12px;width:260px;box-shadow:0 1px 3px rgba(0,0,0,0.04);margin:8px;">
+  <a href="{html}" style="font-weight:600;color:#0366d6;text-decoration:none">{name}</a>
+  <p style="margin:6px 0;color:#586069">{desc}</p>
+  <p style="font-size:12px;color:#586069;margin-top:8px">⭐ {stars} • Last commit: {last}</p>
+</div>
+'''
+        cards.append(card)
+
+    if not cards:
+        body = '<p>No repositories with commits in the last 30 days.</p>'
     else:
-        body = '\n'.join(activity_lines)
+        body = '<div style="display:flex;flex-wrap:wrap;gap:12px">' + '\n'.join(cards) + '</div>'
 
     readme = 'README.md'
     start = '<!-- ACTIVITY:START -->'
