@@ -41,11 +41,34 @@
 
 <!-- ACTIVITY:START -->
 
-## Activity
+<div style="display:grid;grid-template-columns:repeat(2, minmax(0,1fr));gap:12px;align-items:start">
+<div style="border:1px solid #e1e4e8;border-radius:8px;padding:12px;width:260px;box-shadow:0 1px 3px rgba(0,0,0,0.04);margin:8px;">
+  <a href="https://github.com/puck02/puck02" style="font-weight:600;color:#0366d6;text-decoration:none">puck02</a>
+  <p style="margin:6px 0;color:#586069"></p>
+  <p style="font-size:12px;color:#586069;margin-top:8px">⭐ 0 • Last commit: 2026-01-27</p>
+</div>
 
-<!-- ACTIVITY:START -->
 
-Generating activity...
+<div style="border:1px solid #e1e4e8;border-radius:8px;padding:12px;width:260px;box-shadow:0 1px 3px rgba(0,0,0,0.04);margin:8px;">
+  <a href="https://github.com/puck02/HEl" style="font-weight:600;color:#0366d6;text-decoration:none">HEl</a>
+  <p style="margin:6px 0;color:#586069"></p>
+  <p style="font-size:12px;color:#586069;margin-top:8px">⭐ 0 • Last commit: 2026-01-14</p>
+</div>
+
+
+<div style="border:1px solid #e1e4e8;border-radius:8px;padding:12px;width:260px;box-shadow:0 1px 3px rgba(0,0,0,0.04);margin:8px;">
+  <a href="https://github.com/puck02/ai-agents-for-beginners" style="font-weight:600;color:#0366d6;text-decoration:none">ai-agents-for-beginners</a>
+  <p style="margin:6px 0;color:#586069">12 Lessons to Get Started Building AI Agents</p>
+  <p style="font-size:12px;color:#586069;margin-top:8px">⭐ 0 • Last commit: 2026-01-23</p>
+</div>
+
+
+<div style="border:1px solid #e1e4e8;border-radius:8px;padding:12px;width:260px;box-shadow:0 1px 3px rgba(0,0,0,0.04);margin:8px;">
+  <a href="https://github.com/puck02/hello-agents" style="font-weight:600;color:#0366d6;text-decoration:none">hello-agents</a>
+  <p style="margin:6px 0;color:#586069">📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程</p>
+  <p style="font-size:12px;color:#586069;margin-top:8px">⭐ 0 • Last commit: 2026-01-19</p>
+</div>
+</div>
 
 <!-- ACTIVITY:END -->
 
