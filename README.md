@@ -1,29 +1,28 @@
 <h1 align="center">Hi 👋, I'm puck02</h1>
 <h3 align="center">Student</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=puck02&label=Profile%20views&color=0e75b6&style=flat" alt="puck02" /> </p>
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=puck02&label=Profile%20views&color=0e75b6&style=flat" alt="puck02" />
+</p>
 
-<a target="_blank" align="center">
-	<img align="right" top="500" height="300" width="400" alt="GIF" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif">
-</a>
+<img align="right" height="300" width="400" alt="GIF" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" />
 
 - 🔭 I’m currently learning AI agents:
-    - https://github.com/puck02/ai-agents-for-beginners
-    - https://github.com/puck02/hello-agents
+  - [ai-agents-for-beginners](https://github.com/puck02/ai-agents-for-beginners)
+  - [hello-agents](https://github.com/puck02/hello-agents)
 
-- 📝 Working on some useful tools(vibe coding):
-    - https://github.com/puck02/HEl
-    - https://github.com/puck02/Pawprints
+- 📝 Working on some useful tools (vibe coding):
+  - [HEl](https://github.com/puck02/HEl)
+  - [Pawprints](https://github.com/puck02/Pawprints)
 
 - 🤝 Open to collaboration and small contributions.
 
-- 📫 How to reach me: **ponepuck@qq.com**
+- 📫 How to reach me: **ponepuck [at] qq.com**
 
 <br/>
+<br/>
 
-<div style="clear: both;"></div>
-<!-- Technologies -->
-<h2 align="center" style="clear:both; margin-top:140px">Technologies That I Know</h2>
+## Tech Stack
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -31,19 +30,10 @@
   </a>
 </p>
 
-<!-- GitHub stats -->
 ## GitHub Stats
 
 <p align="center">
-	<img alt="puck02's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=puck02&show_icons=true&theme=dark&count_private=true" />
-	<img alt="puck02's top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=puck02&layout=compact&theme=dark&langs_count=10" />
+  <img alt="puck02's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=puck02&show_icons=true&theme=dark&count_private=true" />
+  <img alt="puck02's top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=puck02&layout=compact&theme=dark&langs_count=10" />
 </p>
 
-
----
-
-
-
-Credit: [puck02](https://github.com/puck02)
-
-Last Edited on: 2026-01-27
