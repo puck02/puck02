@@ -33,7 +33,7 @@
 ## GitHub Stats
 
 <p align="center">
-  <img alt="puck02's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=puck02&show_icons=true&theme=dark&count_private=true" />
-  <img alt="puck02's top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=puck02&layout=compact&theme=dark&langs_count=10" />
+  <img alt="puck02's GitHub stats" src="https://github-readme-stats-iota-weld-83.vercel.app/api?username=puck02&show_icons=true&theme=dark&count_private=true" />
+  <img alt="puck02's top languages" src="https://github-readme-stats-iota-weld-83.vercel.app/api/top-langs/?username=puck02&layout=compact&theme=dark&langs_count=10" />
 </p>
 
