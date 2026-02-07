@@ -12,6 +12,7 @@
   - [hello-agents](https://github.com/puck02/hello-agents)
 
 - 📝 Working on some useful tools (vibe coding):
+  - [Cling](https://github.com/puck02/Cling)
   - [HEl](https://github.com/puck02/HEl)
   - [Pawprints](https://github.com/puck02/Pawprints)
 
