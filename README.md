@@ -12,6 +12,7 @@
   - [hello-agents](https://github.com/puck02/hello-agents)
 
 - 📝 Working on some useful tools (vibe coding):
+  - [HEI-agent](https://github.com/puck02/HEI-agent) — AI 健康管家（ReAct Agent + 分层记忆 + RAG）
   - [Cubytes](https://github.com/puck02/Cubytes)
   - [HEl](https://github.com/puck02/HEl)
   - [Pawprints](https://github.com/puck02/Pawprints)
@@ -19,6 +20,8 @@
 - 🤝 Open to collaboration and small contributions.
 
 - 📫 How to reach me: **ponepuck [at] qq.com**
+
+- 📄 **Resume**: [25届-袁浩-AI应用.html](./25届-袁浩-AI应用.html) — AI Agent 开发工程师
 
 <br/>
 <br/>
