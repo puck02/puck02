@@ -21,7 +21,7 @@
 
 - 📫 How to reach me: **ponepuck [at] qq.com**
 
-- 📄 **Resume**: [25届-袁浩-AI应用.html](./25届-袁浩-AI应用.html) — AI Agent 开发工程师
+- 📄 **Resume**: [在线预览](http://47.102.148.221:5173/resume.html) | [HTML 源文件](./25届-袁浩-AI应用.html) — AI Agent 开发工程师
 
 <br/>
 <br/>
