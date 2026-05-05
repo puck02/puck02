@@ -16,10 +16,13 @@
   }
   .page {
     width: 210mm;
+    min-height: 297mm;
     margin: 0 auto;
     background: #fff;
-    padding: 8mm 18mm 10mm 18mm;
+    padding: 12mm 18mm 10mm 18mm;
     box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
   }
 
   /* ── Header ── */
@@ -27,7 +30,7 @@
     display: flex;
     align-items: center;
     gap: 18px;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     padding-bottom: 8px;
     border-bottom: 2.5px solid #1a73e8;
   }
@@ -79,7 +82,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 2px 18px;
     font-size: 12.5px;
-    line-height: 1.55;
+    line-height: 1.6;
   }
   .skills-grid .skill-item {
     padding-left: 14px;
@@ -182,7 +185,7 @@
   /* ── Print ── */
   @media print {
     body { background: #fff; margin: 0; padding: 0; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-    .page { box-shadow: none; margin: 0; padding: 8mm 18mm 10mm 18mm; }
+    .page { box-shadow: none; margin: 0; padding: 12mm 18mm 10mm 18mm; min-height: 0; }
   }
 </style>
 </head>
