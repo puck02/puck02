@@ -181,7 +181,7 @@
     content: "✓";
     position: absolute;
     left: 0;
-    color: #34a853;
+    color: #1a73e8;
     font-size: 11px;
     font-weight: 700;
   }
@@ -248,7 +248,6 @@
         <li>分层记忆系统：MEMORY.md（Agent 笔记）+ USER.md（用户档案）+ SQLite 会话摘要，三要素同时注入 System Prompt，关键词 LIKE 检索，记忆召回率 100%</li>
         <li>RAG 检索管线：Qdrant 向量召回 → DashScope gte-rerank 精排 → Top-5 截断；三个知识库（健康/用药/中医）共 774 chunks，RAG Recall 78.9%</li>
         <li>全链路 Benchmark 得分 82.5/100：覆盖 Tool 准确率 77.8%、Reflection 五维度自动打分 + 阈值重试、P95 延迟 5.3s、确认机制 100%</li>
-        <li>Demo 模式部署上线：日报每日一次限制 + Markdown 渲染 + Vue 3 前端，无需认证，状态持久化至 SQLite</li>
       </ul>
     </div>
 
@@ -263,6 +262,7 @@
         <li>基于角色专属 System Prompt 实现统一调度与解耦，多轮对话保持角色一致性（>20 轮无明显角色漂移）</li>
         <li>短期会话记忆（10 条/2h TTL）+ 长期情景记忆（SQLite + Qdrant），按重要性阈值与容量策略自动清理</li>
         <li>独立部署情感分析 Agent，Few-shot Prompt 判断情感并自动更新 NPC 好感度，动态调整回复风格</li>
+        <li>TODO：接入 Claude Code、Hermes 等主流 Agent，打造成真实可用的开发团队</li>
       </ul>
     </div>
   </div>
