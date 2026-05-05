@@ -11,67 +11,65 @@
     font-family: "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
     color: #2c2c2c;
     background: #f5f5f5;
-    line-height: 1.45;
-    font-size: 12px;
+    font-size: 13px;
+    line-height: 1.55;
   }
   .page {
     width: 210mm;
-    max-height: 297mm;
     margin: 0 auto;
     background: #fff;
-    padding: 5mm 16mm 6mm 16mm;
+    padding: 8mm 18mm 10mm 18mm;
     box-shadow: 0 2px 12px rgba(0,0,0,0.08);
-    overflow: hidden;
   }
 
   /* ── Header ── */
   .header {
     display: flex;
     align-items: center;
-    gap: 15px;
-    margin-bottom: 4px;
-    padding-bottom: 5px;
-    border-bottom: 2px solid #1a73e8;
+    gap: 18px;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 2.5px solid #1a73e8;
   }
   .photo {
-    width: 75px;
-    height: 100px;
+    width: 85px;
+    height: 113px;
     object-fit: cover;
-    border-radius: 4px;
+    border-radius: 5px;
     border: 1px solid #e0e0e0;
     flex-shrink: 0;
   }
   .header-info { flex: 1; }
   .header-info h1 {
-    font-size: 22px;
+    font-size: 25px;
     font-weight: 700;
     color: #1a1a1a;
-    margin-bottom: 3px;
+    margin-bottom: 4px;
     letter-spacing: 2px;
   }
   .header-info .subtitle {
-    font-size: 13px;
+    font-size: 14px;
     color: #1a73e8;
     font-weight: 500;
-    margin-bottom: 6px;
+    margin-bottom: 8px;
   }
   .contact {
     display: flex;
     flex-wrap: wrap;
-    gap: 4px 18px;
-    font-size: 11.5px;
+    gap: 4px 20px;
+    font-size: 12.5px;
     color: #555;
   }
 
   /* ── Section ── */
-  .section { margin-bottom: 6px; }
+  .section { margin-bottom: 10px; }
   .section-title {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 700;
     color: #1a73e8;
-    border-left: 3px solid #1a73e8;
-    padding-left: 8px;
-    margin-bottom: 4px;
+    border-left: 4px solid #1a73e8;
+    padding-left: 10px;
+    margin-bottom: 6px;
     letter-spacing: 1px;
   }
 
@@ -79,12 +77,12 @@
   .skills-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1px 16px;
-    font-size: 11.5px;
-    line-height: 1.45;
+    gap: 2px 18px;
+    font-size: 12.5px;
+    line-height: 1.55;
   }
   .skills-grid .skill-item {
-    padding-left: 12px;
+    padding-left: 14px;
     position: relative;
   }
   .skills-grid .skill-item::before {
@@ -92,67 +90,62 @@
     position: absolute;
     left: 0;
     color: #1a73e8;
-    font-size: 10px;
+    font-size: 11px;
   }
 
   /* ── Project / Experience ── */
-  .entry { margin-bottom: 5px; }
+  .entry { margin-bottom: 8px; }
   .entry-header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin-bottom: 2px;
+    margin-bottom: 4px;
     flex-wrap: wrap;
   }
   .entry-title {
-    font-size: 12.5px;
+    font-size: 13.5px;
     font-weight: 700;
     color: #1a1a1a;
   }
   .entry-link {
-    font-size: 11px;
+    font-size: 11.5px;
     color: #1a73e8;
     text-decoration: none;
   }
   .entry-date {
-    font-size: 11px;
+    font-size: 11.5px;
     color: #888;
     white-space: nowrap;
   }
-  .entry-sub {
-    font-size: 11.5px;
-    color: #555;
-    margin-bottom: 2px;
-  }
   .entry-desc {
-    font-size: 11.5px;
+    font-size: 12.5px;
     color: #444;
-    margin-bottom: 2px;
-    line-height: 1.45;
+    margin-bottom: 3px;
+    line-height: 1.5;
   }
   .tech-stack {
-    font-size: 11px;
+    font-size: 12px;
     color: #777;
-    margin-bottom: 2px;
+    margin-bottom: 3px;
   }
   .entry-list {
     list-style: none;
-    font-size: 11.5px;
+    font-size: 12.5px;
     color: #444;
-    line-height: 1.5;
+    line-height: 1.6;
   }
   .entry-list li {
-    padding-left: 14px;
+    padding-left: 15px;
     position: relative;
-    margin-bottom: 0;
+    margin-bottom: 1px;
   }
   .entry-list li::before {
     content: "●";
     position: absolute;
     left: 0;
     color: #1a73e8;
-    font-size: 6px;
-    top: 6px;
+    font-size: 7px;
+    top: 7px;
   }
 
   /* ── Education ── */
@@ -160,21 +153,21 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    font-size: 12px;
-    margin-bottom: 1px;
+    font-size: 13px;
+    margin-bottom: 2px;
   }
 
   /* ── Awards ── */
   .awards-list {
-    font-size: 11.5px;
+    font-size: 12.5px;
     color: #444;
-    line-height: 1.55;
+    line-height: 1.65;
     columns: 2;
-    column-gap: 20px;
+    column-gap: 22px;
     list-style: none;
   }
   .awards-list li {
-    padding-left: 12px;
+    padding-left: 14px;
     position: relative;
   }
   .awards-list li::before {
@@ -182,14 +175,14 @@
     position: absolute;
     left: 0;
     color: #1a73e8;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 700;
   }
 
   /* ── Print ── */
   @media print {
     body { background: #fff; margin: 0; padding: 0; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-    .page { box-shadow: none; margin: 0; padding: 5mm 16mm 6mm 16mm; max-height: none; overflow: visible; }
+    .page { box-shadow: none; margin: 0; padding: 8mm 18mm 10mm 18mm; }
   }
 </style>
 </head>
